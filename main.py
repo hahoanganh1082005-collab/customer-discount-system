@@ -1,5 +1,3 @@
-# main.py gốc trên nhánh main
 def tinh_diem_gpa(diem_so):
-    # TODO: Cần cập nhật logic quy đổi sang hệ 4
-    return 0.0
-print("Điểm GPA hệ 4 là:", tinh_diem_gpa(8.5))
+    # Công thức tuyến tính đơn giản của Dev A
+    return round((diem_so / 10) * 4, 2)
